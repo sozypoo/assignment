@@ -1,0 +1,95 @@
+
+$ mkdir assignment
+
+$ cd assignment
+
+$ git init
+
+$ notepad first.txt
+
+$ git add first.txt
+
+$ git commit -m "Inital Commit"
+
+$ git log
+
+$ notepad second.txt
+
+$ notepad third.txt
+
+$ notepad fourth.txt
+
+$ git checkout -b Dev
+
+$ git add second.txt
+
+$ git commit -m "commit second.txt"
+
+$ git status
+
+$ git checkout master
+
+$ git checkout -b test
+
+$ git checkout -b Test
+
+$ git add third.txt
+
+$ git commit -m "commit third.txt"
+
+$ git add third.txt
+
+$ git commit -m "third commit"
+
+$ git log
+
+$ git checkout Dev
+
+$ notepad second.txt
+
+$ git status
+
+$ git log
+
+$ git add second.txt
+
+$ git commit -m "first file modified"
+
+$ git log
+
+$ git diff^C
+
+$ git diff  842d34ac9b03c9d84d4f5f546567a707ff5e7c80
+
+$ git status
+
+$ git checkout master
+
+$ git merge Dev
+
+$ git merge Test
+
+$ git merge Test
+
+$ git branch
+
+$ git remote add origin https://github.com/sozypoo/assignment.git
+
+$ git push -u origin master
+
+$ cd ..
+
+$ git clone https://github.com/sozypoo/assignment.git
+
+$ cd assignment
+
+$ notepad Solution.txt
+
+git add Solution.txt
+
+$ git commit -m "Final Commit"
+
+$ git log
+
+$ git push -u origin master
+
